@@ -1,0 +1,18 @@
+.container {
+  width: 900px;
+  margin: auto;
+}
+
+.container-first {
+  width: 900px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.container-first .container-first-picture {
+  position: left;
+  right: 0px;
+  width: 200px;
+}

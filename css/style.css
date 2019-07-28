@@ -1,0 +1,34 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:700');
+
+/* Custom designs */
+@import url(components/banner.css);
+@import url(components/buttons.css);
+@import url(components/cards.css);
+@import url(components/container.css);
+@import url(components/footer.css);
+@import url(components/avatar.css);
+
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+}
+
+h1 {
+  text-shadow: 0 0 0.2em #00ffff
+}
+
+a {
+  text-decoration: none;
+}
+
+.text-center {
+  text-align: center;
+}
+
